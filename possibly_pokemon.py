@@ -69,7 +69,7 @@ class Game:
         """Display the tkinter window that shows the attacking
         pokemon's moves
         """
-
+        # Still gotta get this part !!!
         window = Tk()
         Label(window, text="Hi").grid(row=2, column=2)
 
@@ -105,7 +105,7 @@ class Game:
 
     def get_trainer(self, num: int) -> Trainer:
         """Generate a trainer with <num> pokemons."""
-
+        # Still gotta get this part !!!!
         pok1_image = pygame.transform.scale(
             pygame.image.load("pikachu.jpg"), (138, 80))
         pok1 = Pokemon("Pikachu", "Electric", pok1_image)
