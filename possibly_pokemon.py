@@ -16,7 +16,7 @@ class Game:
     opponent: Any opponent that will appear in the game
 
     === Representation Invariants ===
-    - self.player is None if and only if self.opponent is None
+    - if self.opponent is not None, then self.player is not None
     """
 
     bg: pygame.Surface
